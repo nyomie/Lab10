@@ -1,0 +1,187 @@
+03/10/2018 01:00:00 PM, INFO, Program has started.
+03/10/2018 01:00:00 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/10/2018 01:00:09 PM, INFO, Program has started.
+03/10/2018 01:00:09 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/10/2018 01:00:21 PM, INFO, GOOG Stocks are found!
+03/10/2018 01:00:21 PM, INFO, GoogleFinance object created: symbol = GOOG and start_date = 2018/03/10 
+03/10/2018 01:00:21 PM, INFO, Going to http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/10&enddate=2018/03/10&output=csv
+03/10/2018 01:00:21 PM, INFO, create table GOOG(DATE date,STOCK_PRICE money);
+03/10/2018 01:00:21 PM, ERROR, Table GOOG not created
+03/10/2018 01:00:44 PM, INFO, GOOG Stocks are found!
+03/10/2018 01:00:44 PM, INFO, GoogleFinance object created: symbol = GOOG and start_date = 2018/03/10 
+03/10/2018 01:00:44 PM, INFO, Going to http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/10&enddate=2018/03/10&output=csv
+03/10/2018 01:00:44 PM, INFO, create table GOOG(DATE date,STOCK_PRICE money);
+03/10/2018 01:00:44 PM, ERROR, Table GOOG not created
+03/10/2018 01:01:53 PM, INFO, GOOG Stocks are found!
+03/10/2018 01:01:53 PM, INFO, GoogleFinance object created: symbol = GOOG and start_date = 2018/03/10 
+03/10/2018 01:01:53 PM, INFO, Going to http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/10&enddate=2018/03/10&output=csv
+03/10/2018 01:01:53 PM, INFO, create table GOOG(DATE date,STOCK_PRICE money);
+03/10/2018 01:02:31 PM, INFO, GOOG Stocks are found!
+03/10/2018 01:02:31 PM, INFO, GoogleFinance object created: symbol = GOOG and start_date = 2018/03/05 
+03/10/2018 01:02:31 PM, INFO, Going to http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/05&enddate=2018/03/10&output=csv
+03/10/2018 01:02:31 PM, INFO, create table GOOG(DATE date,STOCK_PRICE money);
+03/10/2018 01:02:31 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-09',1160.040000);
+03/10/2018 01:02:31 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-08',1126.000000);
+03/10/2018 01:02:31 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-07',1109.640000);
+03/10/2018 01:02:31 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-06',1095.060000);
+03/10/2018 01:02:31 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-05',1090.930000);
+03/10/2018 01:03:44 PM, INFO, TSLA Stocks are found!
+03/10/2018 01:03:44 PM, INFO, GoogleFinance object created: symbol = TSLA and start_date = 2018/03/05 
+03/10/2018 01:03:44 PM, INFO, Going to http://finance.google.com/finance/historical?q=TSLA&startdate=2018/03/05&enddate=2018/03/10&output=csv
+03/10/2018 01:03:44 PM, INFO, create table TSLA(DATE date,STOCK_PRICE money);
+03/10/2018 01:03:44 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-09',327.170000);
+03/10/2018 01:03:44 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-08',329.100000);
+03/10/2018 01:03:44 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-07',332.300000);
+03/10/2018 01:03:44 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-06',328.200000);
+03/10/2018 01:03:44 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-05',333.350000);
+03/10/2018 01:04:06 PM, INFO, TSLA Stocks are found!
+03/10/2018 01:04:06 PM, INFO, GoogleFinance object created: symbol = TSLA and start_date = 2018/03/05 
+03/10/2018 01:04:06 PM, INFO, Going to http://finance.google.com/finance/historical?q=TSLA&startdate=2018/03/05&enddate=2018/03/10&output=csv
+03/10/2018 01:04:06 PM, INFO, create table TSLA(DATE date,STOCK_PRICE money);
+03/10/2018 01:04:06 PM, ERROR, Table TSLA not created
+03/10/2018 01:14:35 PM, INFO, Program has started.
+03/10/2018 01:14:35 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/11/2018 05:59:43 PM, INFO, Program has started.
+03/11/2018 05:59:43 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/11/2018 06:00:07 PM, INFO, GOOG Stocks are found!
+03/11/2018 06:00:07 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('GOOG',5);
+03/11/2018 06:00:07 PM, INFO, GoogleFinance object created: symbol = GOOG and start_date = 2018/03/05 
+03/11/2018 06:00:07 PM, INFO, Going to http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/05&enddate=2018/03/11&output=csv
+03/11/2018 06:00:07 PM, INFO, create table GOOG(DATE date,STOCK_PRICE money);
+03/11/2018 06:00:07 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-09',1160.040000);
+03/11/2018 06:00:07 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-08',1126.000000);
+03/11/2018 06:00:07 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-07',1109.640000);
+03/11/2018 06:00:07 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-06',1095.060000);
+03/11/2018 06:00:07 PM, INFO, insert into GOOG (DATE,STOCK_PRICE) values ('2018-03-05',1090.930000);
+03/11/2018 06:00:33 PM, INFO, AABA Stocks are found!
+03/11/2018 06:00:33 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('AABA',15);
+03/11/2018 06:00:33 PM, INFO, GoogleFinance object created: symbol = AABA and start_date = 2018/03/02 
+03/11/2018 06:00:33 PM, INFO, Going to http://finance.google.com/finance/historical?q=AABA&startdate=2018/03/02&enddate=2018/03/11&output=csv
+03/11/2018 06:00:34 PM, INFO, create table AABA(DATE date,STOCK_PRICE money);
+03/11/2018 06:00:34 PM, INFO, insert into AABA (DATE,STOCK_PRICE) values ('2018-03-09',76.620000);
+03/11/2018 06:00:34 PM, INFO, insert into AABA (DATE,STOCK_PRICE) values ('2018-03-08',75.730000);
+03/11/2018 06:00:34 PM, INFO, insert into AABA (DATE,STOCK_PRICE) values ('2018-03-07',75.980000);
+03/11/2018 06:00:34 PM, INFO, insert into AABA (DATE,STOCK_PRICE) values ('2018-03-06',75.170000);
+03/11/2018 06:00:34 PM, INFO, insert into AABA (DATE,STOCK_PRICE) values ('2018-03-05',73.440000);
+03/11/2018 06:00:34 PM, INFO, insert into AABA (DATE,STOCK_PRICE) values ('2018-03-02',72.690000);
+03/11/2018 06:00:48 PM, INFO, TSLA Stocks are found!
+03/11/2018 06:00:48 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('TSLA',23);
+03/11/2018 06:00:48 PM, INFO, GoogleFinance object created: symbol = TSLA and start_date = 2018/03/06 
+03/11/2018 06:00:48 PM, INFO, Going to http://finance.google.com/finance/historical?q=TSLA&startdate=2018/03/06&enddate=2018/03/11&output=csv
+03/11/2018 06:00:48 PM, INFO, create table TSLA(DATE date,STOCK_PRICE money);
+03/11/2018 06:00:48 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-09',327.170000);
+03/11/2018 06:00:48 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-08',329.100000);
+03/11/2018 06:00:48 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-07',332.300000);
+03/11/2018 06:00:48 PM, INFO, insert into TSLA (DATE,STOCK_PRICE) values ('2018-03-06',328.200000);
+03/11/2018 06:01:06 PM, INFO, MSFT Stocks are found!
+03/11/2018 06:01:06 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('MSFT',20);
+03/11/2018 06:01:06 PM, INFO, GoogleFinance object created: symbol = MSFT and start_date = 2018/03/05 
+03/11/2018 06:01:06 PM, INFO, Going to http://finance.google.com/finance/historical?q=MSFT&startdate=2018/03/05&enddate=2018/03/11&output=csv
+03/11/2018 06:01:07 PM, INFO, create table MSFT(DATE date,STOCK_PRICE money);
+03/11/2018 06:01:07 PM, INFO, insert into MSFT (DATE,STOCK_PRICE) values ('2018-03-09',96.540000);
+03/11/2018 06:01:07 PM, INFO, insert into MSFT (DATE,STOCK_PRICE) values ('2018-03-08',94.430000);
+03/11/2018 06:01:07 PM, INFO, insert into MSFT (DATE,STOCK_PRICE) values ('2018-03-07',93.860000);
+03/11/2018 06:01:07 PM, INFO, insert into MSFT (DATE,STOCK_PRICE) values ('2018-03-06',93.320000);
+03/11/2018 06:01:07 PM, INFO, insert into MSFT (DATE,STOCK_PRICE) values ('2018-03-05',93.640000);
+03/21/2018 06:17:28 PM, INFO, Program has started.
+03/21/2018 06:17:28 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:17:28 PM, INFO, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:18:02 PM, INFO, Program has started.
+03/21/2018 06:18:02 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:18:02 PM, INFO, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:18:02 PM, INFO, select * from known_stocks
+03/21/2018 06:18:02 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 06:21:28 PM, INFO, Program has started.
+03/21/2018 06:21:28 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:21:28 PM, INFO, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:21:29 PM, INFO, select * from known_stocks
+03/21/2018 06:21:29 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 06:24:38 PM, INFO, Program has started.
+03/21/2018 06:24:38 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:24:38 PM, INFO, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:24:38 PM, INFO, select * from known_stocks
+03/21/2018 06:24:38 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 06:24:59 PM, INFO, Program has started.
+03/21/2018 06:24:59 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:24:59 PM, INFO, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 06:24:59 PM, INFO, select * from known_stocks
+03/21/2018 06:24:59 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 08:02:04 PM, INFO, Program has started.
+03/21/2018 08:02:04 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 08:02:04 PM, INFO, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 08:02:04 PM, INFO, select * from known_stocks
+03/21/2018 08:02:04 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 08:02:23 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('AMZN',2);
+03/21/2018 08:02:23 PM, INFO, Successful SQL command execution: insert into known_stocks (SYMBOL,SHARES) values ('AMZN',2);
+03/21/2018 08:02:23 PM, INFO, GoogleFinance object created: symbol = AMZN and start_date = 2018/03/21 
+03/21/2018 08:02:23 PM, INFO, Going to http://finance.google.com/finance/historical?q=AMZN&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 08:02:23 PM, ERROR, Failed to get data from: http://finance.google.com/finance/historical?q=AMZN&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 08:02:23 PM, INFO, create table AMZN(DATE date,STOCK_PRICE money);
+03/21/2018 08:02:23 PM, INFO, Unsuccessful SQL command execution: create table AMZN(DATE date,STOCK_PRICE money);
+03/21/2018 08:02:23 PM, ERROR, Table AMZN not created
+03/21/2018 08:04:18 PM, DEBUG, Starting new HTTPS connection (1): finance.yahoo.com
+03/21/2018 08:04:19 PM, DEBUG, https://finance.yahoo.com:443 "GET /quote/TSLA/profile?p=TSLA HTTP/1.1" 200 None
+03/21/2018 08:06:02 PM, INFO, Program has started.
+03/21/2018 08:06:02 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 08:06:02 PM, ERROR, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 08:06:02 PM, INFO, select * from known_stocks
+03/21/2018 08:06:02 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 08:06:12 PM, INFO, GOOG Stocks are found!
+03/21/2018 08:06:12 PM, INFO, GoogleFinance object created: symbol = GOOG and start_date = 2018/03/21 
+03/21/2018 08:06:12 PM, INFO, Going to http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 08:06:13 PM, ERROR, Failed to get data from: http://finance.google.com/finance/historical?q=GOOG&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 08:06:13 PM, INFO, create table GOOG(DATE date,STOCK_PRICE money);
+03/21/2018 08:06:13 PM, ERROR, Unsuccessful SQL command execution: create table GOOG(DATE date,STOCK_PRICE money);
+03/21/2018 08:06:13 PM, ERROR, Table GOOG not created
+03/21/2018 10:06:26 PM, INFO, Program has started.
+03/21/2018 10:06:26 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:06:26 PM, ERROR, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:06:27 PM, INFO, select * from known_stocks
+03/21/2018 10:06:27 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 10:06:50 PM, INFO, MSFT Stocks are found!
+03/21/2018 10:06:50 PM, INFO, GoogleFinance object created: symbol = MSFT and start_date = 2018/03/19 
+03/21/2018 10:06:50 PM, INFO, Going to http://finance.google.com/finance/historical?q=MSFT&startdate=2018/03/19&enddate=2018/03/21&output=csv
+03/21/2018 10:06:50 PM, ERROR, Failed to get data from: http://finance.google.com/finance/historical?q=MSFT&startdate=2018/03/19&enddate=2018/03/21&output=csv
+03/21/2018 10:06:50 PM, INFO, create table MSFT(DATE date,STOCK_PRICE money);
+03/21/2018 10:06:50 PM, ERROR, Unsuccessful SQL command execution: create table MSFT(DATE date,STOCK_PRICE money);
+03/21/2018 10:06:50 PM, ERROR, Table MSFT not created
+03/21/2018 10:07:20 PM, INFO, Program has started.
+03/21/2018 10:07:20 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:07:20 PM, ERROR, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:07:20 PM, INFO, select * from known_stocks
+03/21/2018 10:07:20 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 10:07:31 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('MSFT',30);
+03/21/2018 10:07:31 PM, INFO, Successful SQL command execution: insert into known_stocks (SYMBOL,SHARES) values ('MSFT',30);
+03/21/2018 10:07:31 PM, INFO, GoogleFinance object created: symbol = MSFT and start_date = 2018/03/19 
+03/21/2018 10:07:31 PM, INFO, Going to http://finance.google.com/finance/historical?q=MSFT&startdate=2018/03/19&enddate=2018/03/21&output=csv
+03/21/2018 10:07:32 PM, ERROR, Failed to get data from: http://finance.google.com/finance/historical?q=MSFT&startdate=2018/03/19&enddate=2018/03/21&output=csv
+03/21/2018 10:07:32 PM, INFO, create table MSFT(DATE date,STOCK_PRICE money);
+03/21/2018 10:07:32 PM, ERROR, Unsuccessful SQL command execution: create table MSFT(DATE date,STOCK_PRICE money);
+03/21/2018 10:07:32 PM, ERROR, Table MSFT not created
+03/21/2018 10:18:43 PM, INFO, Program has started.
+03/21/2018 10:18:43 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:18:43 PM, ERROR, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:18:43 PM, INFO, select * from known_stocks
+03/21/2018 10:18:43 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 10:18:58 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('AMZN',2);
+03/21/2018 10:18:58 PM, INFO, Successful SQL command execution: insert into known_stocks (SYMBOL,SHARES) values ('AMZN',2);
+03/21/2018 10:18:58 PM, INFO, GoogleFinance object created: symbol = AMZN and start_date = 2018/03/21 
+03/21/2018 10:18:58 PM, INFO, Going to http://finance.google.com/finance/historical?q=AMZN&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 10:18:58 PM, ERROR, Failed to get data from: http://finance.google.com/finance/historical?q=AMZN&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 10:18:58 PM, INFO, create table AMZN(DATE date,STOCK_PRICE money);
+03/21/2018 10:18:58 PM, INFO, Successful SQL command execution: create table AMZN(DATE date,STOCK_PRICE money);
+03/21/2018 10:30:35 PM, INFO, Program has started.
+03/21/2018 10:30:35 PM, INFO, create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:30:35 PM, ERROR, Unsuccessful SQL command execution: create table known_stocks(SYMBOL text,SHARES integer);
+03/21/2018 10:30:35 PM, INFO, select * from known_stocks
+03/21/2018 10:30:35 PM, INFO, Successful SQL command execution: select * from known_stocks
+03/21/2018 10:30:47 PM, INFO, insert into known_stocks (SYMBOL,SHARES) values ('AMZN',2);
+03/21/2018 10:30:47 PM, INFO, Successful SQL command execution: insert into known_stocks (SYMBOL,SHARES) values ('AMZN',2);
+03/21/2018 10:30:47 PM, INFO, GoogleFinance object created: symbol = AMZN and start_date = 2018/03/21 
+03/21/2018 10:30:47 PM, INFO, Going to http://finance.google.com/finance/historical?q=AMZN&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 10:30:48 PM, ERROR, Failed to get data from: http://finance.google.com/finance/historical?q=AMZN&startdate=2018/03/21&enddate=2018/03/21&output=csv
+03/21/2018 10:30:48 PM, INFO, create table AMZN(DATE date,STOCK_PRICE money);
+03/21/2018 10:30:48 PM, ERROR, Unsuccessful SQL command execution: create table AMZN(DATE date,STOCK_PRICE money);
+03/21/2018 10:30:48 PM, ERROR, Table AMZN not created
+03/21/2018 10:30:59 PM, DEBUG, Starting new HTTPS connection (1): finance.yahoo.com
+03/21/2018 10:30:59 PM, DEBUG, https://finance.yahoo.com:443 "GET /quote/AMZN/profile?p=AMZN HTTP/1.1" 200 None
