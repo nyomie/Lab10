@@ -5,6 +5,7 @@ import matplotlib
 import matplotlib.dates
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg
 
+
 class QtMpl(FigureCanvasQTAgg):
     """
     This class will draw figure of the data
